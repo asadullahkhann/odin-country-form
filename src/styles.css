@@ -1,0 +1,28 @@
+p * {
+  display: block;
+}
+
+label, input {
+  font-size: 1rem;
+}
+
+.error {
+  color: #f00;
+  font-size: 0.8rem;
+}
+
+input {
+  outline: none;
+}
+
+input:invalid {
+  border: 1px solid #f00;
+}
+
+input:valid {
+  border: 1px solid #000;
+}
+
+.invaild {
+  border: 1px solid #f00;
+}

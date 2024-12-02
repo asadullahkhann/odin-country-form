@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Form</title>
+</head>
+<body>
+  <form novalidate="novalidate">
+    <p><label for="email">Email</label><input type="email" id="email" name="email" required><span class="error">* Required</span></p>
+    <p><label for="country">Country</label><input type="text" id="country" name="country" minlength="2" required><span class="error">* Required</span></p>
+    <p><label for="zip-code">Zip Code</label><input type="text" id="zip-code" name="zipCode" required pattern="[0-9]{5,9}" minlength="5" maxlength="9"><span class="error">* Required</span></p>
+    <p><label for="password">Password</label><input type="password" id="password" name="password" minlength="8" required><span class="error">* Required</span></p>
+    <p><label for="confrim-password">Confrim Password</label><input type="password" id="confrim-password" name="confrimPassword" minlength="8" required><span class="error">* Required</span></p>
+    <p><button>Submit</button></p>
+  </form>
+</body>
+</html>
